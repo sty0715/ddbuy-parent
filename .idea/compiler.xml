@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ddbuy-common-interface" />
+        <module name="ddbuy-common-service" />
+        <module name="ddbuy-entity" />
+        <module name="ddbuy-fastdfs" />
+        <module name="ddbuy-item-web" />
+        <module name="ddbuy-manage-web" />
+        <module name="ddbuy-mapper" />
+        <module name="ddbuy-protal-web" />
+        <module name="ddbuy-search-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ddbuy-common-interface" target="1.5" />
+      <module name="ddbuy-common-service" target="1.8" />
+      <module name="ddbuy-entity" target="1.5" />
+      <module name="ddbuy-fastdfs" target="1.5" />
+      <module name="ddbuy-item-web" target="1.8" />
+      <module name="ddbuy-manage-web" target="1.8" />
+      <module name="ddbuy-mapper" target="1.5" />
+      <module name="ddbuy-parent" target="1.8" />
+      <module name="ddbuy-protal-web" target="1.8" />
+      <module name="ddbuy-search-web" target="1.8" />
+      <module name="ddbuycommoninterface" target="1.5" />
+      <module name="ddbuyfastdfs" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
