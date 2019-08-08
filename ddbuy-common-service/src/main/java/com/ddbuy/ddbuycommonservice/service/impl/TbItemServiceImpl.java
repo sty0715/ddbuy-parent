@@ -63,6 +63,7 @@ public class TbItemServiceImpl implements TbItemService {
             //生成静态页面  注意:商品的名称即为静态网页名
             Writer w=new FileWriter("F:\\idea\\u4\\ddbuy-parent\\ddbuy-item-web\\src\\main\\webapp\\"+tbItem.getId()+".html");
             template.process(maps,w);
+            w.flush();
             w.close();
             return true;
         } catch (Exception e) {
